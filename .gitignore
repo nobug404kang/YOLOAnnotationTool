@@ -1,0 +1,29 @@
+# Qt构建文件
+build/
+build-*/
+debug/
+release/
+*.pro.user*
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+.qmake.stash
+Makefile
+
+# Python缓存
+__pycache__/
+*.pyc
+.venv/
+
+# YOLO训练数据和模型权重
+datasets/
+runs/
+*.pt
+*.onnx
+
+# IDE临时文件
+.vs/
+.idea/
+*.log
